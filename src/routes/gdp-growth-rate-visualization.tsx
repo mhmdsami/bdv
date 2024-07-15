@@ -1,8 +1,8 @@
-import LinePlot from "./components/line-plot";
-import Button from "./components/button";
+import LinePlot from "../components/line-plot";
+import Button from "../components/button";
 import { useState } from "react";
 
-function App() {
+export default function GDPGrowthRateVizualization() {
   const dataset = [
     {
       country: "India",
@@ -130,5 +130,3 @@ function App() {
     </main>
   );
 }
-
-export default App;
