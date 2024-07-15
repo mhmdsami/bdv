@@ -1,13 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { Home, GDPGrowthRateVisualization } from "./routes";
+import { Home, GDPGrowthRateVisualization, ManufacturingPlant } from "./routes";
 import "./index.css";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
+  },
+  {
+    path: "/assignment-3",
+    element: <ManufacturingPlant />,
   },
   {
     path: "/assignment-4",
